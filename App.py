@@ -11,8 +11,8 @@ st.subheader("elaborado ™ de marca registrada unab 2025")
 st.markdown("---")
 
 # Rutas esperadas para los archivos subidos por el usuario en el entorno
-SCALER_PATH = Path("/mnt/data/scaler.jb")
-MODEL_PATH = Path("/mnt/data/svc_model.jb")
+SCALER_PATH = Path("scaler.jb")
+MODEL_PATH = Path("svc_model.jb")
 
 # Sliders: edad (25-80, por defecto 55, step 1), colesterol (120-600, por defecto 242, step 2)
 edad = st.slider("Edad", min_value=25, max_value=80, value=55, step=1)
